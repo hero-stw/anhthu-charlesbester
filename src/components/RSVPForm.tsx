@@ -39,12 +39,14 @@ const RSVPForm = () => {
       console.log("RSVP submitted successfully:", response.data);
       if (response.status === 201) {
         setIsPopupOpen(true);
-        formRef?.current?.reset();
+        // @ts-ignore
+        formRef && formRef.current.reset();
         setTimeout(() => setIsPopupOpen(false), 2500);
       }
     } catch (error) {
       console.error("Error submitting RSVP:", error);
       setSubmissionError(
+          // @ts-ignore
         error.message || "An error occurred while submitting your RSVP."
       );
     } finally {
