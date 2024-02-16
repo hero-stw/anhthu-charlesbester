@@ -202,3 +202,7 @@ form input[type="radio"] {
   position: relative;
   width: 0;
 }
+
+.place {
+  background-color: var(--main-pink);
+}
