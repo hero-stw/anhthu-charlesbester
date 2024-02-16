@@ -54,7 +54,7 @@ function App() {
           5PM
         </div>
       </div>
-      <div className='place w-full z-[99] relative text-center'>
+      <div className='place w-full z-[99] relative text-center pb-14'>
         <h2 className='uppercase font-main-sans-bold text-[13px] text-center text-brown'>
           PLACE
         </h2>
@@ -65,7 +65,7 @@ function App() {
           venue to be announced, more information to follow
         </h3>
       </div>
-      <div className='z-[99] relative main-img mt-14'></div>
+      <div className='z-[99] relative main-img'></div>
       <div className='bg-[#fff8f2] py-14 px-12 relative'>
         <div className='rsvp rounded-[10px] shadow p-8 z-[100] relative'>
           <h3 className='font-main-serif text-form uppercase text-[24px] text-center tracking-[0.225em]'>
