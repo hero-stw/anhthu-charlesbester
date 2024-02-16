@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Abulla";
+  src: url("./fonts/AlbulaPro-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Abulla-Bold";
+  src: url("./fonts/AlbulaPro-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Abulla-Medium";
+  src: url("./fonts/AlbulaPro-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AVEGRA";
+  src: url("./fonts/DFVN_AVEGRA.OTF");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --main-pink: #fff8f2;
+  --main-brown: #664c31;
+  --main-serif: "";
+  --main-sans: "";
+}
+
+.main {
+  background-color: var(--main-pink);
+  height: 100vh;
+  height: 100dvh;
+}
+
+.pattern {
+  background: url("./assets/images/pattern.png");
+  background-repeat: repeat;
+  background-size: contain;
+  background-blend-mode: color-burn;
+}
+
+.splash-1 {
+  background: url("./assets/images/splash_1.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-blend-mode: color-burn;
+  background-color: var(--main-pink);
+}
+
+.splash-2 {
+  background: url("./assets/images/splash_2.png");
+  position: absolute;
+  top: 50px;
+  right: 0;
+  height: 550px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-blend-mode: color-burn;
+  background-color: var(--main-pink);
+}
+
+.splash-4 {
+  background: url("./assets/images/splash_4.png");
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 400px;
+  width: 330px;
+  background-repeat: no-repeat;
+  background-blend-mode: color-burn;
+  background-color: var(--main-pink);
+}
+
+.font-main-sans {
+  font-family: Abulla;
+  font-weight: 400;
+}
+
+.font-main-sans-medium {
+  font-family: Abulla-Medium;
+  font-weight: 500;
+}
+
+.font-main-sans-bold {
+  font-family: Abulla-Bold;
+  font-weight: 700;
+}
+
+.text-brown {
+  color: var(--main-brown);
+}
+
+.text-pink {
+  color: var(--main-pink);
+}
+
+.text-form {
+  color: #ddd8cb;
+}
+
+.font-main-serif {
+  font-family: AVEGRA;
+  font-weight: 700;
+}
+
+.date-box {
+  display: grid;
+  grid-template-columns: 1fr 150px 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.venue::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: var(--main-brown);
+  border-radius: 50%;
+  bottom: 5%;
+  left: -10px;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.venue::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: var(--main-brown);
+  border-radius: 50%;
+  bottom: 5%;
+  right: -10px;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.main-img {
+  aspect-ratio: 480/267;
+  width: 100%;
+  background: url("./assets/images/main-img.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-color: var(--main-pink);
+}
+
+.rsvp {
+  background-color: var(--main-brown);
+}
+
+label {
+  color: #fff;
+  font-family: var(--main-sans);
+}
+
+input[type="radio"]:after {
+  width: 20px;
+  height: 20px;
+  border-radius: 40px;
+  top: -2px;
+  position: relative;
+  background-color: transparent;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #ddd8cb;
+}
+
+input[type="radio"]:checked:before {
+  content: url("./assets/images/check.svg");
+  width: 30px;
+  height: 30px;
+  top: -8px;
+  left: -3px;
+  position: absolute;
+  display: block;
+}
+
+form input[type="radio"] {
+  background-color: transparent;
+  border: 1px solid var(--color-2);
+  position: relative;
+  width: 0;
+}
