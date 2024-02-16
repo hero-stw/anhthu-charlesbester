@@ -58,7 +58,7 @@ const RSVPForm = () => {
     <form
       ref={formRef}
       method='POST'
-      className='pt-6 grid gap-8 relative'
+      className='pt-6 grid gap-12 relative'
       onSubmit={handleSubmit}
     >
       <div className='grid gap-6'>
@@ -112,7 +112,7 @@ const RSVPForm = () => {
         />
       </div>
       <div className='form-question mt-4 grid place-content-center '>
-        <div className='btn-wrap grid gap-8'>
+        <div className='btn-wrap grid gap-14'>
           <div className='btn-box flex gap-4 items-center justify-start'>
             <input
               id='t16-yes'
@@ -125,7 +125,7 @@ const RSVPForm = () => {
             />
             <label
               htmlFor='t16-yes'
-              className='form-btn-text font-main-sans-medium text-form text-[2em] uppercase pl-8'
+              className='form-btn-text font-main-sans-medium text-form text-[1.75em] uppercase pl-8'
             >
               accepts with pleasure
             </label>
@@ -142,7 +142,7 @@ const RSVPForm = () => {
             />
             <label
               htmlFor='t16-no'
-              className='form-btn-text font-main-sans-medium text-form text-[2em] uppercase pl-8'
+              className='form-btn-text font-main-sans-medium text-form text-[1.75em] uppercase pl-8'
             >
               declines with regret
             </label>

@@ -66,15 +66,15 @@ const Home = () => {
 				</h3>
 			</div>
 			<div className='z-[99] relative main-img'></div>
-			<div className='bg-[#fff8f2] py-14 px-12 relative'>
-				<div className='rsvp rounded-[10px] shadow p-8 z-[100] relative'>
-					<h3 className='font-main-serif text-form text-[2.5em] text-center tracking-[0.225em]'>
+			<div className='bg-[#fff8f2] py-16 px-12 relative'>
+				<div className='rsvp rounded-[10px] shadow p-12 z-[100] relative'>
+					<h3 className='font-main-serif text-form text-[3em] text-center tracking-[0.225em]'>
 						Anh Thư
 					</h3>
-					<h3 className='font-main-serif text-form uppercase text-[2.5em] text-center'>
+					<h3 className='font-main-serif text-form uppercase text-[3em] text-center'>
 						&
 					</h3>
-					<h3 className='font-main-serif text-form text-[2.5em] text-center tracking-[0.225em]'>
+					<h3 className='font-main-serif text-form text-[3em] text-center tracking-[0.225em]'>
 						Charles Bester
 					</h3>
 					<img
@@ -82,7 +82,7 @@ const Home = () => {
 						src='./images/flower_2.png'
 						alt=''
 					/>
-					<p className='text-center font-main-sans-medium text-form tracking-wider text-[1.5em] capitalize '>
+					<p className='text-center font-main-sans-medium text-form tracking-wider text-[1.75em] capitalize '>
 						We Look forward for your Attendance
 					</p>
 					<RSVPForm />
