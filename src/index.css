@@ -41,10 +41,12 @@
   --main-sans: "";
 }
 
+body, #root, html, :root, [data-theme] {
+  background-color: #fff;
+}
+
 .main {
   background-color: var(--main-pink);
-  height: 100vh;
-  height: 100dvh;
 }
 
 .pattern {
@@ -205,4 +207,7 @@ form input[type="radio"] {
 
 .place {
   background-color: var(--main-pink);
+}
+.Toastify__toast-icon  {
+  display: none;
 }
