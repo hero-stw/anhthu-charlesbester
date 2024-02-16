@@ -74,7 +74,7 @@ const RSVPForm = () => {
           name='guest_name'
           placeholder='Name'
           required
-          className='border rounded-md border-gray-400 text-gray-600 text-[1.5em] font-normal font-main-sans leading-loose tracking-wide p-2 bg-white'
+          className='border rounded-md border-gray-400 text-gray-600 text-[1.5em] font-normal font-main-sans leading-loose tracking-wide p-4 bg-white'
           onChange={(event) => handleChange(event)}
         />
       </div>
@@ -90,7 +90,7 @@ const RSVPForm = () => {
           id='partner_name'
           name='partner_name'
           placeholder='Name'
-          className='border rounded-md border-gray-400 text-gray-600 text-[1.5em] font-normal font-main-sans leading-loose tracking-wide p-2 bg-white'
+          className='border rounded-md border-gray-400 text-gray-600 text-[1.5em] font-normal font-main-sans leading-loose tracking-wide p-4 bg-white'
           onChange={(event) => handleChange(event)}
         />
       </div>
@@ -107,7 +107,7 @@ const RSVPForm = () => {
           name='email'
           placeholder='Email'
           required
-          className='border rounded-md border-gray-400 text-gray-600 text-[1.5em] font-normal font-main-sans leading-loose tracking-wide p-2 bg-white'
+          className='border rounded-md border-gray-400 text-gray-600 text-[1.5em] font-normal font-main-sans leading-loose tracking-wide p-4 bg-white'
           onChange={(event) => handleChange(event)}
         />
       </div>
@@ -125,7 +125,7 @@ const RSVPForm = () => {
             />
             <label
               htmlFor='t16-yes'
-              className='form-btn-text font-main-sans-medium text-form text-[1.5em] uppercase pl-8'
+              className='form-btn-text font-main-sans-medium text-form text-[2em] uppercase pl-8'
             >
               accepts with pleasure
             </label>
@@ -142,7 +142,7 @@ const RSVPForm = () => {
             />
             <label
               htmlFor='t16-no'
-              className='form-btn-text font-main-sans-medium text-form text-[1.5em] uppercase pl-8'
+              className='form-btn-text font-main-sans-medium text-form text-[2em] uppercase pl-8'
             >
               declines with regret
             </label>
