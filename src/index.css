@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Abulla";
-  src: url("fonts/AlbulaPro-Regular.otf");
+  src: url("./assets/fonts/AlbulaPro-Regular.otf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Abulla-Bold";
-  src: url("fonts/AlbulaPro-Bold.otf");
+  src: url("./assets/fonts/AlbulaPro-Bold.otf");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: "Abulla-Medium";
-  src: url("fonts/AlbulaPro-Medium.otf");
+  src: url("./assets/fonts/AlbulaPro-Medium.otf");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: "AVEGRA";
-  src: url("fonts/DFVN_AVEGRA.OTF");
+  src: url("./assets/fonts/DFVN_AVEGRA.OTF");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
