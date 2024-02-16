@@ -64,7 +64,7 @@ const RSVPForm = () => {
       <div className='grid gap-6'>
         <label
           htmlFor='guest_name'
-          className='font-main-sans-medium text-form text-[1.5em]'
+          className='font-main-sans-medium text-form text-[2em]'
         >
           Guest
         </label>
@@ -74,14 +74,14 @@ const RSVPForm = () => {
           name='guest_name'
           placeholder='Name'
           required
-          className='border rounded-md border-gray-400 text-gray-600 text-[1.5em] font-normal font-main-sans leading-loose tracking-wide p-4 bg-white'
+          className='border rounded-md border-gray-400 text-gray-600 text-[2em] font-normal font-main-sans leading-loose tracking-wide p-8 bg-white'
           onChange={(event) => handleChange(event)}
         />
       </div>
       <div className='grid gap-6'>
         <label
           htmlFor='partner_name'
-          className='font-main-sans-medium text-form text-[1.5em]'
+          className='font-main-sans-medium text-form text-[2em]'
         >
           Partner
         </label>
@@ -90,14 +90,14 @@ const RSVPForm = () => {
           id='partner_name'
           name='partner_name'
           placeholder='Name'
-          className='border rounded-md border-gray-400 text-gray-600 text-[1.5em] font-normal font-main-sans leading-loose tracking-wide p-4 bg-white'
+          className='border rounded-md border-gray-400 text-gray-600 text-[2em] font-normal font-main-sans leading-loose tracking-wide p-8 bg-white'
           onChange={(event) => handleChange(event)}
         />
       </div>
       <div className='grid gap-6'>
         <label
           htmlFor='partner_name'
-          className='font-main-sans-medium text-form text-[1.5em]'
+          className='font-main-sans-medium text-form text-[2em]'
         >
           Email
         </label>
@@ -107,12 +107,12 @@ const RSVPForm = () => {
           name='email'
           placeholder='Email'
           required
-          className='border rounded-md border-gray-400 text-gray-600 text-[1.5em] font-normal font-main-sans leading-loose tracking-wide p-4 bg-white'
+          className='border rounded-md border-gray-400 text-gray-600 text-[2em] font-normal font-main-sans leading-loose tracking-wide p-8 bg-white'
           onChange={(event) => handleChange(event)}
         />
       </div>
       <div className='form-question mt-4 grid place-content-center '>
-        <div className='btn-wrap grid gap-14'>
+        <div className='btn-wrap grid gap-[3em]'>
           <div className='btn-box flex gap-4 items-center justify-start'>
             <input
               id='t16-yes'
@@ -125,7 +125,7 @@ const RSVPForm = () => {
             />
             <label
               htmlFor='t16-yes'
-              className='form-btn-text font-main-sans-medium text-form text-[1.75em] uppercase pl-8'
+              className='form-btn-text font-main-sans-medium text-form text-[2em] uppercase pl-8'
             >
               accepts with pleasure
             </label>
@@ -142,18 +142,16 @@ const RSVPForm = () => {
             />
             <label
               htmlFor='t16-no'
-              className='form-btn-text font-main-sans-medium text-form text-[1.75em] uppercase pl-8'
+              className='form-btn-text font-main-sans-medium text-form text-[2em] uppercase pl-8'
             >
               declines with regret
             </label>
           </div>
           <button
             disabled={isSubmitting}
-            className='w-[159px] h-[39px] mx-auto px-[5em] py-[2.5em] bg-orange-100 rounded-[3px] border border-stone-400 justify-center items-center gap-4.5 inline-flex'
+            className='w-full mx-auto bg-orange-100 rounded-[3px] border border-stone-400 justify-center items-center gap-4.5 inline-flex text-yellow-950 text-[2em] font-semibold font-main-sans-medium uppercase text-center py-8 rounded-btn'
           >
-            <p className='text-yellow-950 text-[1.5em] font-semibold font-main-sans-medium uppercase'>
               {isSubmitting ? "Submitting..." : "Submit"}
-            </p>
           </button>
           {submissionError && (
             <p className='text-[1em] text-form'>{submissionError}</p>
