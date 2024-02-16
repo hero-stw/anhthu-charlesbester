@@ -68,13 +68,13 @@ function App() {
       <div className='z-[99] relative main-img'></div>
       <div className='bg-[#fff8f2] py-14 px-12 relative'>
         <div className='rsvp rounded-[10px] shadow p-8 z-[100] relative'>
-          <h3 className='font-main-serif text-form uppercase text-[24px] text-center tracking-[0.225em]'>
-            ANH THƯ
+          <h3 className='font-main-serif text-form text-[24px] text-center tracking-[0.225em]'>
+            Anh Thư
           </h3>
           <h3 className='font-main-serif text-form uppercase text-[24px] text-center'>
             &
           </h3>
-          <h3 className='font-main-serif text-form uppercase text-[24px] text-center tracking-[0.225em]'>
+          <h3 className='font-main-serif text-form text-[24px] text-center tracking-[0.225em]'>
             Charles Bester
           </h3>
           <img

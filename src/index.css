@@ -158,7 +158,7 @@
 .main-img {
   aspect-ratio: 480/267;
   width: 100%;
-  background: url("./assets/images/main-img.jpg");
+  background: url("./assets/images/main.jpg");
   background-position: center top;
   background-size: cover;
   background-color: var(--main-pink);
