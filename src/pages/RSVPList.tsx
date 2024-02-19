@@ -105,7 +105,7 @@ const RSVPList: React.FC = () => {
 				</div>
 			)}
 				<div className="overflow-x-auto mx-auto grid place-content-center text-gray-600">
-					<table className="table table-lg text-[1em]">
+					<table className="table table-xs">
 						{/* head */}
 						<thead className={"text-gray-600"}>
 						<tr>
