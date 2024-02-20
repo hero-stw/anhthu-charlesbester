@@ -83,7 +83,7 @@ const Home = () => {
 						alt=''
 					/>
 					<p className='text-center font-main-sans-medium text-form tracking-wider text-[12px] capitalize '>
-						We Look forward for your Attendance
+						We Look forward to your Attendance
 					</p>
 					<RSVPForm />
 				</div>
