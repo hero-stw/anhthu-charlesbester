@@ -40,10 +40,10 @@ const Home = () => {
 				<div className='justify-center items-center flex w-full'>
 					<div className='flex-col justify-center items-center gap-[7px] w-full'>
 						<div className='text-center text-brown text-base font-normal font-main-serif uppercase tracking-widest'>
-							oct
+							OCT
 						</div>
 						<div className='text-center text-brown text-[40px] font-normal font-main-serif uppercase tracking-[4.80px] border-black border-l-[0.75px] border-r-[0.75px]'>
-							26
+							25
 						</div>
 						<div className='text-center text-brown text-base font-normal font-main-serif uppercase tracking-widest'>
 							2024
